@@ -35,3 +35,9 @@ https://sonarcloud.io/summary/new_code?id=Numanresul_ShopsRUS
 Bu scripti çalıştırdıktan sonra proje hangi urlde ayağa kalkıyorsa bu urlin sonuna `/swagger/index.html` eklemesini yaparak swagger arayüzüne ulaşabilirsiniz.
 
 ####   Son olarak projeye .net in kendi extensionlarından olan `Microsoft.CodeAnalysis.NetAnalyzers` entegre edilmiştir böylelikle   "**/ShopsRus**" dizininde `dotnet build` komutunu çalıştırdığınızda static linting ve analiz işlemleri yapılarak sonuçlar console ekranında listelenecektir.
+
+# Projeye ait UML Diyagram
+
+![Örnek Görsel](https://github.com/Numanresul/ShopsRUS/blob/master/ShopsRusDatabaseUML.png)
+
+
