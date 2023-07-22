@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Hosting;
 using ShopsRus.Data;
+using ShopsRus.InitializeFunctions;
 using ShopsRus.Services.Classes;
 
 var builder = WebApplication.CreateBuilder(args);
