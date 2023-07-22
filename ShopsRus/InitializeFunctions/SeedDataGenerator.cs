@@ -38,7 +38,7 @@ public class SeedDataGenerator
                 new Discount { Type = DiscountType.Employee, Percentage = 30 },
                 new Discount { Type = DiscountType.Affiliate, Percentage = 10 },
                 new Discount { Type = DiscountType.Loyalty, Percentage = 5 },
-                new Discount { Type = DiscountType.AmountBased, Percentage = 0, MaxAmount = 5 }
+                new Discount { Type = DiscountType.AmountBased, Percentage = 0}
             };
             _discountCollection.InsertMany(discounts);
         }

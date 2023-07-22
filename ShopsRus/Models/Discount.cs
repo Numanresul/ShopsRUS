@@ -10,7 +10,6 @@ namespace ShopsRus.Models
         public string DiscountId { get; set; }
         public DiscountType Type { get; set; }
         public decimal Percentage { get; set; }
-        public decimal MaxAmount { get; set; }
     }
 
 
