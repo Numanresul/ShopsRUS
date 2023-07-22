@@ -31,4 +31,7 @@ https://sonarcloud.io/summary/new_code?id=Numanresul_ShopsRUS
 | :-------- | :------- | :------ |
 | `0`      | `1` | `2` |
 
+#### Ayrıca projeyi Windows işletim sisteminde çalıştıranlar için test fonksiyonlarını çalıştırıp , projeyi buil alarak statik kod analizi çıktılarını veren ve projeyi run eden `AnalyzeTestAndRun.bat` isimli bir script eklendi.
+Bu scripti çalıştırdıktan sonra proje hangi urlde ayağa kalkıyorsa bu urlin sonuna `/swagger/index.html` eklemesini yaparak swagger arayüzüne ulaşabilirsiniz.
+
 ####   Son olarak projeye .net in kendi extensionlarından olan `Microsoft.CodeAnalysis.NetAnalyzers` entegre edilmiştir böylelikle   "**/ShopsRus**" dizininde `dotnet build` komutunu çalıştırdığınızda static linting ve analiz işlemleri yapılarak sonuçlar console ekranında listelenecektir.
