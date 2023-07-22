@@ -36,7 +36,7 @@ namespace ShopsRusNUnitTest.ShopsRUSTests
             //_discountCollection = database.GetCollection<Discount>("Discounts");
             _invoiceCollection = database.GetCollection<Invoice>("Invoices");
 
-            //InvoiceService'i test için hazırlayın
+            //InvoiceService'i test için hazırlayın  
             _invoiceService = new InvoiceService(new AppDbContext(_connectionString, _databaseName));
         }
 
